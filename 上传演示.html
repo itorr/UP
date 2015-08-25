@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<style>
+img{
+	max-width:80%;
+	display:block;
+}
+</style>
+
+<input type="file" id="选图">
+<img id="图片">
+<p id="文本"></p>
+
+<script src="up.itorr.js"></script>
+
+<script>
+选图.onchange=function(){
+	if(!this.files||!this.files[0])
+		return alert('选取文件出错！')
+
+	var 
+	图片文件=this.files[0]
+
+	if(图片文件.type.indexOf('image')!=0)
+		return alert('这不是一个图像或音频！')
+	
+	UP(图片文件,function(pid){
+		文本.innerHTML=
+		图片.src='http://ww2.sinaimg.cn/large/'+pid
+
+	},function(){
+		alert('上传文件出错了！')
+	},function(进度){
+		文本.innerHTML=进度*100+'%'
+	})
+}
+</script>
