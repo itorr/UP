@@ -17,7 +17,13 @@
 ###上传
 
 引入  `up.itorr.js` 
-
+```html
+<script src="up.itorr.js"></script>
+```
+或者引用 线上版本的 `up.itorr.js` 
+```html
+<script src="http://x.mouto.org/wb/up.itorr.js"></script>
+```
 ####第一种使用方式
 ```javascript
 UP=function( !图片文件 , !正确回调 , ?错误回调 , ?进度回调 )
