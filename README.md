@@ -1,5 +1,7 @@
 #偷揉图床 API 说明 文档
 
+![偷揉图床 API](http://ww2.sinaimg.cn/large/a15b4afegw1evfav69etmg21e00qoq2w)
+
 >偷揉图床是一个简单的图片分享工具
 >http://x.mouto.org/wb
 
@@ -61,3 +63,7 @@ UP({
 })
 ```
 
+
+###演示地址
+
+[http://x.mouto.org/wb/上传演示.html](http://x.mouto.org/wb/上传演示.html)
