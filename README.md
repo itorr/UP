@@ -1,6 +1,6 @@
 #偷揉图床 API 说明 文档
 
-![偷揉图床 API](http://ww2.sinaimg.cn/large/a15b4afegw1evfav69etmg21e00qoq2w)
+![偷揉图床 API](http://ww1.sinaimg.cn/large/4764ae2agw1evfb3z44bqg21e00qoq2w.gif)
 
 >偷揉图床是一个简单的图片分享工具
 >http://x.mouto.org/wb
