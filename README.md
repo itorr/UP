@@ -24,7 +24,7 @@
 ```html
 <script src="http://x.mouto.org/wb/up.itorr.js"></script>
 ```
-使用这个版本的地址时，会在上传服务出现问题是提供备选方案支持
+使用这个版本的地址时，会在上传服务出现问题时提供备选方案支持
 ####第一种使用方式
 ```javascript
 UP=function( !图片文件 , !正确回调 , ?错误回调 , ?进度回调 )
