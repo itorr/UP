@@ -18,7 +18,7 @@ UP=function(o,success,error,upload,x,file,A){
 	}
 
 	x=new XMLHttpRequest()
-	x.open('POST','http://x.mouto.org/wb/x.php?up&_r='+Math.random(),1)
+	x.open('POST','http://x.mouto.org/wb/x.php?up',1)
 
 	if(upload)
 		x.upload.onprogress=function(e){
